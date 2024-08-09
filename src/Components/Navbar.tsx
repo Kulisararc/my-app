@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <div>
-      <div className="flex justify-center shadow-lg p-3 mb-5 bg-body roundednpm run dev">
+      <div className="flex justify-center shadow-lg 16 mb-5 bg-body roundednpm run dev">
         <div className="self-center top-0 w-full max-w-7xl ">
           <div className="flex justify-between items-center text-gray-700">
             {/* <div className="mx-2 my-4 ">
@@ -26,10 +26,10 @@ export default function Navbar() {
                 <a href="/ai">AI ตรวจวินิจฉัยโรค</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">การจัดลำดับในกลุ่มประเทศ AEC</a>
+                <a href="/aecranking">AEC Ranking</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">การประเมินยุทธศาสตร์ชาติ</a>
+                <a href="/productlist">การประเมินยุทธศาสตร์ชาติ</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ติดต่อ</a>

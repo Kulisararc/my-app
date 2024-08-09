@@ -1,10 +1,10 @@
-import AI from "@/components/AI";
+import AECRanking from "@/components/AECRanking";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <AI />
+      <AECRanking />
     </div>
   );
 }
